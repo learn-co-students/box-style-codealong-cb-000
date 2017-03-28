@@ -55,7 +55,7 @@ figcaption {
   background: linear-gradient(to bottom,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
 }
-
+/* updates */
 /* MEDIUM-FADE */
 .medium-fade {
   background: rgb(229,229,229); /* Old browsers */
@@ -135,8 +135,8 @@ img, video, audio, iframe, table, form {
 
 #social a {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   background: yellow;
 }
 
