@@ -188,15 +188,18 @@ header {
 }
 
 /*////////// LOGO //////////*/
-
-
+#logo {
+  padding: 84px 0 0;
+}
 
 #logo h1 {
   font-family: 'Clicker Script', cursive;
+  margin: 0;
 }
 
 #logo h2 {
   font-family: 'Elsie Swash Caps', cursive;
+  margin: 0;
 }
 
 /*////////// MAIN SECTIONS //////////*/
@@ -209,8 +212,10 @@ section {
 }
 
 /*////////// DETAILS //////////*/
+#details {
+  border-top: 1px solid white;
 
-
+}
 
 #details div {
   height: 221px;
@@ -231,3 +236,11 @@ section {
 }
 
 /*////////// FOOTER //////////*/
+
+footer {
+  text-align: center;
+  font-size: 0.75em;
+  padding: 10px;
+  background: #eee;
+  border-top: 1px solid #ccc;
+}
