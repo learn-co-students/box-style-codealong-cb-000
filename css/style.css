@@ -7,7 +7,7 @@ h3 {
   margin: 0 0 10px;
 }
 
-p { 
+p {
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
 }
@@ -31,7 +31,10 @@ figcaption {
 
 
 /*////////// BACKGROUNDS //////////*/
-
+.white-wood {
+  background: url(../images/white-wood.jpg) no-repeat center top;
+  background-size: cover;
+}
 
 
 /*/////// MEDIA ////////*/
@@ -72,17 +75,17 @@ img, video, audio, iframe, table, form {
 .col-1 {
   float: left;
   width: 32%;
-  background: #ccc;
+  /*background: #ccc;*/
 }
 
 .col-2 {
   float: left;
   width: 66%;
-  background: #ccc;
+  /*background: #ccc;*/
 }
 
 .col-3 {
-  background: #ccc;
+  /*background: #ccc;*/
 }
 
 [class*="col-"] {
@@ -112,14 +115,42 @@ img, video, audio, iframe, table, form {
 
 /*////////// HEADER //////////*/
 
-
+header {
+  margin: 0 0 30px;
+}
 
 /*////////// NAVBAR //////////*/
 
+#navbar {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+#navbar nav {
+  border-left: 1px solid #ccc;
+}
 
-
+#navbar nav a {
+  display: inline-block;
+  width: 16.6666667%;
+  margin:0;
+  padding: 22px  0;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  text-decoration: none;
+  font: 1em Arial;
+}
 /*////////// LOGO //////////*/
-
+#navbar nav a.selected {
+  background: #ccc;
+  color: white;
+}
 
 
 #logo h1 {
@@ -135,7 +166,7 @@ img, video, audio, iframe, table, form {
 section {
   padding: 30px;
   margin-bottom: 20px;
-
+  background: white;
 }
 
 /*////////// DETAILS //////////*/
@@ -160,6 +191,12 @@ section {
   color: red;
 }
 
+.shadow {
+  box-shadow: 0 3px 10px #333;
+}
+.border-right {
+  border-right: 1px dotted #ccc;
+  padding-right: 30px;
+}
+
 /*////////// FOOTER //////////*/
-
-
